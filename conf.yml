@@ -53,6 +53,10 @@ sections:
         url: http://plex/web/index.html#!/
         target: newtab
         id: 4_836_plex
+      - title: Homarr
+        url: http://homarr
+        target: newtab
+        id: 5_836_homarr
   - name: Network Services
     displayData:
       sortBy: default
