@@ -12,7 +12,7 @@ appConfig:
   statusCheckInterval: 60
   iconSize: medium
   colCount: 3
-  layout: auto
+  layout: vertical
 sections:
   - name: Services
     displayData:
@@ -82,6 +82,10 @@ sections:
         url: http://grafana
         target: newtab
         id: 5_1614_grafana
+      - title: smokeping
+        url: http://smokeping
+        target: newtab
+        id: 6_1614_smokeping
   - name: Getting Started
     icon: fas fa-rocket
     items:
