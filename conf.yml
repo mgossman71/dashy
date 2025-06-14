@@ -19,7 +19,7 @@ appConfig:
   statusCheckInterval: 60
   iconSize: medium
   colCount: 3
-  layout: vertical
+  layout: horizontal
 sections:
   - name: Services
     displayData:
@@ -138,3 +138,19 @@ sections:
       cols: 1
       collapsed: true
       hideForGuests: false
+  - name: Sites
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: prusa
+        url: https://www.prusa3d.com/
+        target: newtab
+        id: 0_520_prusa
+      - title: printables
+        url: https://www.printables.com/
+        target: newtab
+        id: 1_520_printables
