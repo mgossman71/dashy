@@ -12,18 +12,7 @@ appConfig:
   statusCheckInterval: 60
   iconSize: medium
   colCount: 3
-<<<<<<< HEAD
-  layout: auto
-  auth:
-    users:
-      - user: admin
-        hash: "$6$tQw4ZnA.fajmHiAw$g44E.lfhFteTvV/Jv91KOXyAglsdS1dMt7dpdLOPa1DfkumvSD9Bzv6F6MJEt4eV0F/UUW4cblkQ/1Sw.35tM."
-        type: admin
-    enableGuestAccess: true
-  disableConfigurationForNonAdmin: true  
-=======
-  layout: vertical
->>>>>>> 034652a4e42f22ebd8bd14e02c72320b993d6c7b
+  layout: auto  
 sections:
   - name: Services
     displayData:
