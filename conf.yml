@@ -10,7 +10,7 @@ appConfig:
   auth:
     users:
       - user: admin
-        hash: DASHY_PASSWORD
+        hash: $DASHY_PASSWORD
         type: admin
     enableGuestAccess: true
   disableConfigurationForNonAdmin: true
