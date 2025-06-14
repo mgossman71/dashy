@@ -10,7 +10,7 @@ appConfig:
   auth:
     users:
       - user: admin
-        hash: "$6$tQw4ZnA.fajmHiAw$g44E.lfhFteTvV/Jv91KOXyAglsdS1dMt7dpdLOPa1DfkumvSD9Bzv6F6MJEt4eV0F/UUW4cblkQ/1Sw.35tM."
+        hash: "aee4e37393a3f7ee77de6588e96197c0377184fbc4d265001aafb2a1a1427619"
         type: admin
     enableGuestAccess: true
   disableConfigurationForNonAdmin: true
