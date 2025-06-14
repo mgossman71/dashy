@@ -47,16 +47,6 @@ sections:
         url: http://synology
         target: newtab
         id: 4_836_synology
-      - title: nginx
-        description: nginx
-        url: http://vm-docker0:81
-        target: newtab
-        id: 5_836_nginx
-      - title: dockge
-        description: dockge
-        url: http://dockge
-        target: newtab
-        id: 6_836_dockge
   - name: Network Services
     displayData:
       sortBy: default
@@ -74,12 +64,12 @@ sections:
         description: nginx
         url: http://vm-docker0:81
         target: newtab
-        id: 5_836_nginx
+        id: 1_1614_nginx
       - title: dockge
         description: dockge
         url: http://dockge
         target: newtab
-        id: 6_836_dockge  
+        id: 2_1614_dockge
   - name: Getting Started
     icon: fas fa-rocket
     items:
