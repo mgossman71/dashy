@@ -70,7 +70,16 @@ sections:
         url: http://10.0.0.3
         target: newtab
         id: 0_1614_unifi
-  
+      - title: nginx
+        description: nginx
+        url: http://vm-docker0:81
+        target: newtab
+        id: 5_836_nginx
+      - title: dockge
+        description: dockge
+        url: http://dockge
+        target: newtab
+        id: 6_836_dockge  
   - name: Getting Started
     icon: fas fa-rocket
     items:
