@@ -19,7 +19,7 @@ appConfig:
   statusCheckInterval: 60
   iconSize: medium
   colCount: 3
-  layout: auto  
+  layout: vertical
 sections:
   - name: Services
     displayData:
@@ -29,26 +29,26 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: sabnzbd
-        description: sabnzbd
-        url: http://sabnzbd
-        target: newtab
-        id: 0_836_sabnzbd
-      - title: sonarr
-        description: sonarr
-        url: http://sonarr
-        target: newtab
-        id: 1_836_sonarr
-      - title: radarr
-        description: radarr
-        url: http://radarr
-        target: newtab
-        id: 2_836_radarr
       - title: overseerr
         description: overseerr
         url: http://overseerr
         target: newtab
-        id: 3_836_overseerr
+        id: 0_836_overseerr
+      - title: sabnzbd
+        description: sabnzbd
+        url: http://sabnzbd
+        target: newtab
+        id: 1_836_sabnzbd
+      - title: sonarr
+        description: sonarr
+        url: http://sonarr
+        target: newtab
+        id: 2_836_sonarr
+      - title: radarr
+        description: radarr
+        url: http://radarr
+        target: newtab
+        id: 3_836_radarr
       - title: Plex
         url: http://plex/web/index.html#!/
         target: newtab
