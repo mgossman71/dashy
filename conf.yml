@@ -1,0 +1,113 @@
+pageInfo:
+  title: Home Lab
+  description: Welcome to Gozznet
+  navLinks:
+    - title: GitHub
+      path: https://github.com/Lissy93/dashy
+    - title: Documentation
+      path: https://dashy.to/docs
+appConfig:
+  theme: colorful
+  statusCheck: true
+  statusCheckInterval: 60
+  iconSize: medium
+  colCount: 3
+  layout: horizontal
+sections:
+  - name: Getting Started
+    icon: fas fa-rocket
+    items:
+      - title: Dashy Live
+        description: Development and project management links for Dashy
+        icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
+        url: https://live.dashy.to/
+        target: newtab
+        id: 0_1481_dashylive
+      - title: GitHub
+        description: Source Code, Issues, and Pull Requests
+        url: https://github.com/lissy93/dashy
+        icon: favicon
+        id: 1_1481_github
+      - title: Docs
+        description: Configuring & Usage Documentation
+        provider: Dashy.to
+        icon: far fa-book
+        url: https://dashy.to/docs
+        id: 2_1481_docs
+      - title: Showcase
+        description: See how others are using Dashy
+        url: https://dashy.to/docs/showcase/
+        icon: far fa-grin-hearts
+        id: 3_1481_showcase
+      - title: Config Guide
+        description: See full list of configuration options
+        url: https://dashy.to/docs/configuring/
+        icon: fas fa-wrench
+        id: 4_1481_configguide
+      - title: Support
+        description: Get help with Dashy, raise a bug, or get in contact
+        url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
+        icon: far fa-hands-helping
+        id: 5_1481_support
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+  - name: Services
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: sabnzbd
+        description: sabnzbd
+        url: http://sabnzbd
+        target: newtab
+        id: 0_836_sabnzbd
+      - title: sonarr
+        description: sonarr
+        url: http://sonarr
+        target: newtab
+        id: 1_836_sonarr
+      - title: radarr
+        description: radarr
+        url: http://radarr
+        target: newtab
+        id: 2_836_radarr
+      - title: overseerr
+        description: overseerr
+        url: http://overseerr
+        target: newtab
+        id: 3_836_overseerr
+      - title: synology
+        description: synology
+        url: http://synology
+        target: newtab
+        id: 4_836_synology
+      - title: nginx
+        description: nginx
+        url: http://vm-docker0:81
+        target: newtab
+        id: 5_836_nginx
+      - title: dockge
+        description: dockge
+        url: http://dockge
+        target: newtab
+        id: 6_836_dockge
+  - name: Network Services
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Unifi
+        description: Unifi
+        url: http://10.0.0.3
+        target: newtab
+        id: 0_1614_unifi
