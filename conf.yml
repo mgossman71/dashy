@@ -13,6 +13,13 @@ appConfig:
   iconSize: medium
   colCount: 3
   layout: auto
+  auth:
+    users:
+      - user: admin
+        hash: "$6$tQw4ZnA.fajmHiAw$g44E.lfhFteTvV/Jv91KOXyAglsdS1dMt7dpdLOPa1DfkumvSD9Bzv6F6MJEt4eV0F/UUW4cblkQ/1Sw.35tM."
+        type: admin
+    enableGuestAccess: true
+  disableConfigurationForNonAdmin: true  
 sections:
   - name: Services
     displayData:
