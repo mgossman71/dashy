@@ -78,6 +78,10 @@ sections:
         url: http://openspeedtest
         target: newtab
         id: 4_1614_openspeedtest
+      - title: Grafana
+        url: http://grafana
+        target: newtab
+        id: 5_1614_grafana
   - name: Getting Started
     icon: fas fa-rocket
     items:
