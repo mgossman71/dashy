@@ -12,7 +12,7 @@ appConfig:
   statusCheckInterval: 60
   iconSize: medium
   colCount: 3
-  layout: horizontal
+  layout: auto
 sections:
   - name: Services
     displayData:
@@ -42,11 +42,6 @@ sections:
         url: http://overseerr
         target: newtab
         id: 3_836_overseerr
-      - title: synology
-        description: synology
-        url: http://synology
-        target: newtab
-        id: 4_836_synology
   - name: Network Services
     displayData:
       sortBy: default
@@ -74,7 +69,7 @@ sections:
         description: synology
         url: http://synology
         target: newtab
-        id: 4_836_synology
+        id: 3_1614_synology
   - name: Getting Started
     icon: fas fa-rocket
     items:
