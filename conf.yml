@@ -43,7 +43,7 @@ sections:
         target: newtab
         id: 3_836_overseerr
       - title: Plex
-        url: http://plex
+        url: http://plex/web/index.html#!/
         target: newtab
         id: 4_836_plex
   - name: Network Services
