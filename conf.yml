@@ -70,6 +70,11 @@ sections:
         url: http://dockge
         target: newtab
         id: 2_1614_dockge
+      - title: synology
+        description: synology
+        url: http://synology
+        target: newtab
+        id: 4_836_synology
   - name: Getting Started
     icon: fas fa-rocket
     items:
