@@ -21,21 +21,11 @@ appConfig:
   colCount: 3
   layout: horizontal
 sections:
-  - name: torrnet info
+  - name: torrent info   # or correct typo: “torrent info”
     widgets:
-      - gl-current-cpu
+      - type: gl-current-cpu
         options:
           hostname: http://10.0.0.155:61208
-        id: 0_696_gl-current-cpu
-      - gl-current-memory
-        options:
-          hostname: http://10.0.0.155:61208
-        id: 1_696_gl-current-memory
-      - gl-current-load
-        options:
-          hostname: http://10.0.0.155:61208
-        id: 2_696_gl-current-load
-
   - name: Services
     displayData:
       sortBy: default
