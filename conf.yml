@@ -126,3 +126,9 @@ sections:
           hideDate: false
           hideSeconds: false
           use12Hour: true    
+      - type: weather
+        options:
+          apiKey: 8d939f6ef35c60155719e6286e6efd0e
+          city: Andover, US
+          units: imperial        # or "metric"
+          hideDetails: false     # set true to hide wind/humidity/etc.
