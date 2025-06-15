@@ -17,9 +17,9 @@ appConfig:
   theme: colorful
   statusCheck: true
   statusCheckInterval: 60
-  iconSize: medium
+  iconSize: small
   colCount: 3
-  layout: horizontal
+  layout: vertical
 sections:
   - name: Services
     displayData:
@@ -57,6 +57,10 @@ sections:
         url: http://homarr
         target: newtab
         id: 5_836_homarr
+      - title: kasm
+        url: https://docker0/#/userdashboard
+        target: newtab
+        id: 6_836_kasm
   - name: Network Services
     displayData:
       sortBy: default
