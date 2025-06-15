@@ -17,7 +17,7 @@ appConfig:
   theme: colorful
   statusCheck: true
   statusCheckInterval: 60
-  iconSize: small
+  iconSize: medium
   colCount: 3
   layout: vertical
 sections:
@@ -29,13 +29,15 @@ sections:
           format: en-US
           hideDate: false
           hideSeconds: false
-          use12Hour: true    
+          use12Hour: true
+        id: 0_399_clock
       - type: weather
         options:
           apiKey: 8d939f6ef35c60155719e6286e6efd0e
           city: Andover, US
-          units: imperial        # or "metric"
-          hideDetails: false     # set true to hide wind/humidity/etc.
+          units: imperial
+          hideDetails: false
+        id: 1_399_weather
   - name: Services
     displayData:
       sortBy: default
@@ -89,17 +91,17 @@ sections:
         url: http://10.0.0.3
         target: newtab
         id: 0_1614_unifi
-      - title: nginx
+      - title: Nginx
         description: nginx
-        url: http://vm-docker0:81
+        url: http://proxy0:81
         target: newtab
         id: 1_1614_nginx
-      - title: dockge
+      - title: Dockge
         description: dockge
         url: http://dockge
         target: newtab
         id: 2_1614_dockge
-      - title: synology
+      - title: Synology
         description: synology
         url: http://synology
         target: newtab
@@ -112,10 +114,14 @@ sections:
         url: http://grafana
         target: newtab
         id: 5_1614_grafana
-      - title: smokeping
+      - title: Smokeping
         url: http://smokeping
         target: newtab
         id: 6_1614_smokeping
+      - title: DNS
+        url: http://dns
+        target: newtab
+        id: 7_1614_dns
   - name: Sites
     displayData:
       sortBy: default
