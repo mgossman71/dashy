@@ -24,9 +24,13 @@ sections:
   - name: torrent info   # or correct typo: “torrent info”
     widgets:
       - type: gl-current-cpu
+        useProxy: true
+        timeout: 5000
         options:
           hostname: http://10.0.0.155:61208
       - type: gl-current-mem
+        useProxy: true
+        timeout: 5000
         options::
           hostname: http://10.0.0.155:61208
   - name: Services
