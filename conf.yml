@@ -28,7 +28,7 @@ sections:
         timeout: 5000
         options:
           hostname: http://10.0.0.155:61208
-      - type: gl-current-mem
+      - type: gl-current-ram
         useProxy: true
         timeout: 5000
         options::
