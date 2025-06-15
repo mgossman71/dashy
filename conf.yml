@@ -21,6 +21,21 @@ appConfig:
   colCount: 3
   layout: vertical
 sections:
+  - name: Time
+    widgets:
+      - type: clock
+        options:
+          timeZone: America/Chicago
+          format: en-US
+          hideDate: false
+          hideSeconds: false
+          use12Hour: true    
+      - type: weather
+        options:
+          apiKey: 8d939f6ef35c60155719e6286e6efd0e
+          city: Andover, US
+          units: imperial        # or "metric"
+          hideDetails: false     # set true to hide wind/humidity/etc.
   - name: Services
     displayData:
       sortBy: default
