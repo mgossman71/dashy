@@ -33,6 +33,7 @@ sections:
         timeout: 5000
         options::
           hostname: http://10.0.0.155:61208
+          endpoint: /api/4/mem
   - name: Services
     displayData:
       sortBy: default
