@@ -117,3 +117,12 @@ sections:
         url: https://www.printables.com/
         target: newtab
         id: 1_520_printables
+  - name: Time
+    widgets:
+      - type: clock
+        options:
+          timeZone: America/Chicago
+          format: en-US
+          hideDate: false
+          hideSeconds: false
+          use12Hour: true    
