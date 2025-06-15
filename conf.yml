@@ -26,6 +26,9 @@ sections:
       - type: gl-current-cpu
         options:
           hostname: http://10.0.0.155:61208
+      - type: gl-current-memory
+        options:
+          hostname: http://10.0.0.155:61208
   - name: Services
     displayData:
       sortBy: default
