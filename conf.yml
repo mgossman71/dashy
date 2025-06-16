@@ -101,6 +101,10 @@ sections:
         url: http://vm-docker0:5001
         target: newtab
         id: 2_1614_dockged
+      - title: Dockge-dns2
+        url: http://dns2:5001
+        target: newtab
+        id: 8_1614_dockgedns
       - title: Synology
         description: synology
         url: http://synology
