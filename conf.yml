@@ -81,8 +81,8 @@ sections:
   - name: Network Services
     displayData:
       sortBy: default
-      rows: 1
-      cols: 1
+      rows: 0
+      cols: 0
       collapsed: false
       hideForGuests: false
     items:
