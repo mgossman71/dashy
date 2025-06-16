@@ -46,23 +46,23 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: overseerr
-        description: overseerr
+      - title: Overseerr
+        description: ''
         url: http://overseerr
         target: newtab
         id: 0_908_overseerr
-      - title: sabnzbd
-        description: sabnzbd
+      - title: Sabnzbd
+        description: ''
         url: http://sabnzbd
         target: newtab
         id: 1_908_sabnzbd
-      - title: sonarr
-        description: sonarr
+      - title: Sonarr
+        description: ''
         url: http://sonarr
         target: newtab
         id: 2_908_sonarr
-      - title: radarr
-        description: radarr
+      - title: Radarr
+        description: ''
         url: http://radarr
         target: newtab
         id: 3_908_radarr
@@ -74,10 +74,6 @@ sections:
         url: http://homarr
         target: newtab
         id: 5_908_homarr
-      - title: kasm
-        url: https://docker0/#/userdashboard
-        target: newtab
-        id: 6_908_kasm
   - name: Infra Services
     displayData:
       sortBy: default
@@ -122,6 +118,10 @@ sections:
         url: http://smokeping
         target: newtab
         id: 7_1364_smokeping
+      - title: Kasm
+        url: https://docker0/#/userdashboard
+        target: newtab
+        id: 8_1364_kasm
   - name: Sites
     displayData:
       sortBy: default
