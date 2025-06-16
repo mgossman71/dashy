@@ -19,7 +19,7 @@ appConfig:
   statusCheckInterval: 60
   iconSize: small
   colCount: 3
-  layout: vertical
+  layout: auto
 sections:
   - name: Time
     widgets:
@@ -38,7 +38,7 @@ sections:
           units: imperial
           hideDetails: false
         id: 1_399_weather
-  - name: Services
+  - name: Movies / TV
     displayData:
       sortBy: default
       rows: 1
@@ -50,35 +50,35 @@ sections:
         description: overseerr
         url: http://overseerr
         target: newtab
-        id: 0_836_overseerr
+        id: 0_908_overseerr
       - title: sabnzbd
         description: sabnzbd
         url: http://sabnzbd
         target: newtab
-        id: 1_836_sabnzbd
+        id: 1_908_sabnzbd
       - title: sonarr
         description: sonarr
         url: http://sonarr
         target: newtab
-        id: 2_836_sonarr
+        id: 2_908_sonarr
       - title: radarr
         description: radarr
         url: http://radarr
         target: newtab
-        id: 3_836_radarr
+        id: 3_908_radarr
       - title: Plex
         url: http://plex/web/index.html#!/
         target: newtab
-        id: 4_836_plex
+        id: 4_908_plex
       - title: Homarr
         url: http://homarr
         target: newtab
-        id: 5_836_homarr
+        id: 5_908_homarr
       - title: kasm
         url: https://docker0/#/userdashboard
         target: newtab
-        id: 6_836_kasm
-  - name: Network Services
+        id: 6_908_kasm
+  - name: Infra Services
     displayData:
       sortBy: default
       rows: 0
@@ -90,46 +90,38 @@ sections:
         description: Unifi
         url: http://10.0.0.3
         target: newtab
-        id: 0_1614_unifi
+        id: 0_1364_unifi
       - title: Nginx
         description: nginx
         url: http://proxy0:81
         target: newtab
-        id: 1_1614_nginx
+        id: 1_1364_nginx
       - title: Dockge - d0
         description: Dockge - d0
         url: http://vm-docker0:5001
         target: newtab
-        id: 2_1614_dockged
+        id: 2_1364_dockged
       - title: Dockge-dns2
         url: http://dns2:5001
         target: newtab
-        id: 3_1614_dockgedns
+        id: 3_1364_dockgedns
       - title: Synology
         description: synology
         url: http://synology
         target: newtab
-        id: 4_1614_synology
+        id: 4_1364_synology
       - title: open-speed-test
         url: http://openspeedtest
         target: newtab
-        id: 5_1614_openspeedtest
+        id: 5_1364_openspeedtest
       - title: Grafana
         url: http://grafana
         target: newtab
-        id: 6_1614_grafana
+        id: 6_1364_grafana
       - title: Smokeping
         url: http://smokeping
         target: newtab
-        id: 7_1614_smokeping
-      - title: DNS1
-        url: http://vm-docker0:5380
-        target: newtab
-        id: 8_1614_dns
-      - title: DNS2
-        url: http://dns2:5380
-        target: newtab
-        id: 9_1614_dns
+        id: 7_1364_smokeping
   - name: Sites
     displayData:
       sortBy: default
@@ -146,3 +138,19 @@ sections:
         url: https://www.printables.com/
         target: newtab
         id: 1_520_printables
+  - name: DNS Servers
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: DNS1
+        url: http://vm-docker0:5380
+        target: newtab
+        id: 0_1007_dns
+      - title: DNS2
+        url: http://dns2:5380
+        target: newtab
+        id: 1_1007_dns
