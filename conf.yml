@@ -17,7 +17,7 @@ appConfig:
   theme: colorful
   statusCheck: true
   statusCheckInterval: 60
-  iconSize: medium
+  iconSize: small
   colCount: 3
   layout: vertical
 sections:
@@ -96,11 +96,11 @@ sections:
         url: http://proxy0:81
         target: newtab
         id: 1_1614_nginx
-      - title: Dockge
-        description: dockge
-        url: http://dockge
+      - title: Dockge - d0vmDocker0
+        description: Dockge - d0
+        url: http://vm-docker0:5001
         target: newtab
-        id: 2_1614_dockge
+        id: 2_1614_dockgedvmdocker
       - title: Synology
         description: synology
         url: http://synology
@@ -122,6 +122,10 @@ sections:
         url: http://dns
         target: newtab
         id: 7_1614_dns
+      - title: Dockge-dns2
+        url: http://dns2:5001
+        target: newtab
+        id: 8_1614_dockgedns
   - name: Sites
     displayData:
       sortBy: default
