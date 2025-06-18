@@ -154,3 +154,17 @@ sections:
         url: http://dns2:5380
         target: newtab
         id: 1_1007_dns
+  - name: IoT
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Hubitat
+        url: 10.0.0.41
+        id: 0_268_hubitat
+      - title: Homebridge
+        url: http://vip0:8581
+        id: 1_268_homebridge
