@@ -119,7 +119,7 @@ sections:
         target: newtab
         id: 7_1364_smokeping
       - title: Kasm
-        url: https://docker0/#/userdashboard
+        url: https://kasm/#/userdashboard
         target: newtab
         id: 8_1364_kasm
   - name: Sites
