@@ -155,7 +155,7 @@ sections:
       hideForGuests: false
     items:
       - title: DNS1
-        url: http://vm-docker0:5380
+        url: http://dns1:5380
         target: newtab
         id: 0_1007_dns
       - title: DNS2
