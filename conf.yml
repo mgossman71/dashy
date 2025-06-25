@@ -123,7 +123,7 @@ sections:
         target: newtab
         id: 8_1364_kasm
       - title: Proxmox
-        url: https://10.0.0.228:8006
+        url: https://10.0.0.21:8006
         target: newtab
         id: 9_1364_proxmox
       - title: px-u-dk-00
