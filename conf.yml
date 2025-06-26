@@ -67,7 +67,7 @@ sections:
         target: newtab
         id: 3_908_radarr
       - title: Plex
-        url: http://plex/web/index.html#!/
+        url: https://app.plex.tv/desktop/#!/
         target: newtab
         id: 4_908_plex
       - title: Homarr
