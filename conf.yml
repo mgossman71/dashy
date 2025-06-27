@@ -126,6 +126,10 @@ sections:
         url: https://10.0.0.21:8006
         target: newtab
         id: 9_1364_proxmox
+      - title: px-u-dk-00-Dockge
+        url: http://px-u-dk-00:5001
+        target: newtab
+        id: 10_1364_pxudkdockge
   - name: Sites
     displayData:
       sortBy: default
