@@ -48,22 +48,22 @@ sections:
     items:
       - title: Overseerr
         description: ''
-        url: http://overseerr
+        url: https://requests.mehome.cloud
         target: newtab
         id: 0_908_overseerr
       - title: Sabnzbd
         description: ''
-        url: http://sabnzbd
+        url: http://10.0.0.55:8080
         target: newtab
         id: 1_908_sabnzbd
       - title: Sonarr
         description: ''
-        url: http://sonarr
+        url: http://10.0.0.55:8989
         target: newtab
         id: 2_908_sonarr
       - title: Radarr
         description: ''
-        url: http://radarr
+        url: http://10.0.0.55:7878
         target: newtab
         id: 3_908_radarr
       - title: Plex
@@ -71,9 +71,17 @@ sections:
         target: newtab
         id: 4_908_plex
       - title: Homarr
-        url: http://homarr
+        url: http://10.0.0.55:7575
         target: newtab
         id: 5_908_homarr
+      - title: Open-WebUI
+        url: https://jarvis.mehome.cloud
+        target: newtab
+        id: 6_908_openwebui
+      - title: ChatGPT
+        url: https://chatgpt.com/
+        target: newtab
+        id: 7_908_chatgpt
   - name: Infra Services
     displayData:
       sortBy: default
@@ -84,25 +92,25 @@ sections:
     items:
       - title: Unifi
         description: Unifi
-        url: http://10.0.0.3
+        url: https://10.0.0.3
         target: newtab
         id: 0_1364_unifi
       - title: Nginx
         description: nginx
-        url: http://proxy0:81
+        url: http://10.0.0.55:81
         target: newtab
         id: 1_1364_nginx
       - title: Dockge-dns2
-        url: http://dns2:5001
+        url: http://10.0.0.181:5001
         target: newtab
         id: 2_1364_dockgedns
       - title: Synology
         description: synology
-        url: http://synology
+        url: http://10.0.0.241:5000
         target: newtab
         id: 3_1364_synology
       - title: open-speed-test
-        url: http://openspeedtest
+        url: http://10.0.0.55:3000
         target: newtab
         id: 4_1364_openspeedtest
       - title: Grafana
@@ -110,7 +118,7 @@ sections:
         target: newtab
         id: 5_1364_grafana
       - title: Smokeping
-        url: http://smokeping
+        url: https://smokeping.mehome.cloud
         target: newtab
         id: 6_1364_smokeping
       - title: Kasm
@@ -141,6 +149,9 @@ sections:
         url: https://www.printables.com/
         target: newtab
         id: 1_520_printables
+      - title: Google
+        url: http://google.com
+        id: 2_520_google
   - name: DNS Servers
     displayData:
       sortBy: default
@@ -150,11 +161,11 @@ sections:
       hideForGuests: false
     items:
       - title: DNS1
-        url: http://dns1:5380
+        url: http://10.0.0.55:5380
         target: newtab
         id: 0_1007_dns
       - title: DNS2
-        url: http://dns2:5380
+        url: http://10.0.0.181:5380
         target: newtab
         id: 1_1007_dns
   - name: IoT
@@ -166,7 +177,7 @@ sections:
       hideForGuests: false
     items:
       - title: Hubitat
-        url: 10.0.0.41
+        url: http://10.0.0.41
         id: 0_268_hubitat
       - title: Homebridge
         url: http://vip0:8581
