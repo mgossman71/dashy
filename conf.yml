@@ -100,6 +100,10 @@ sections:
         url: http://10.0.0.55:81
         target: newtab
         id: 1_1364_nginx
+      - title: px-u-dk-00-Dockge
+        url: http://px-u-dk-00:5001
+        target: newtab
+        id: 9_1364_pxudkdockge
       - title: Dockge-dns2
         url: http://10.0.0.181:5001
         target: newtab
@@ -129,10 +133,6 @@ sections:
         url: https://10.0.0.21:8006
         target: newtab
         id: 8_1364_proxmox
-      - title: px-u-dk-00-Dockge
-        url: http://px-u-dk-00:5001
-        target: newtab
-        id: 9_1364_pxudkdockge
   - name: Sites
     displayData:
       sortBy: default
