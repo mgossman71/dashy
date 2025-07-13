@@ -103,36 +103,36 @@ sections:
       - title: px-u-dk-00-Dockge
         url: http://px-u-dk-00:5001
         target: newtab
-        id: 9_1364_pxudkdockge
+        id: 2_1364_pxudkdockge
       - title: Dockge-dns2
         url: http://10.0.0.181:5001
         target: newtab
-        id: 2_1364_dockgedns
+        id: 3_1364_dockgedns
       - title: Synology
         description: synology
         url: http://10.0.0.241:5000
         target: newtab
-        id: 3_1364_synology
+        id: 4_1364_synology
       - title: open-speed-test
         url: http://10.0.0.55:3000
         target: newtab
-        id: 4_1364_openspeedtest
+        id: 5_1364_openspeedtest
       - title: Grafana
         url: http://grafana
         target: newtab
-        id: 5_1364_grafana
+        id: 6_1364_grafana
       - title: Smokeping
         url: https://smokeping.mehome.cloud
         target: newtab
-        id: 6_1364_smokeping
+        id: 7_1364_smokeping
       - title: Kasm
-        url: https://kasm/#/userdashboard
+        url: https://10.0.0.93
         target: newtab
-        id: 7_1364_kasm
+        id: 8_1364_kasm
       - title: Proxmox
         url: https://10.0.0.21:8006
         target: newtab
-        id: 8_1364_proxmox
+        id: 9_1364_proxmox
   - name: Sites
     displayData:
       sortBy: default
