@@ -152,6 +152,10 @@ sections:
       - title: Google
         url: http://google.com
         id: 2_520_google
+      - title: MJG-Firearms
+        url: http://www.mjgfirearms.com
+        target: newtab
+        id: 3_520_mjgfirearms
   - name: DNS Servers
     displayData:
       sortBy: default
