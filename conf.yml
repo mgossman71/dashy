@@ -130,9 +130,28 @@ sections:
         target: newtab
         id: 8_1364_kasm
       - title: Proxmox
-        url: https://10.0.0.21:8006
+        url: https://10.0.0.20:8006
         target: newtab
         id: 9_1364_proxmox
+      - title: Authentik
+        url: http://10.0.0.218:9000/
+        target: newtab
+        id: 10_1364_authentik
+      - title: FastKoko
+        url: http://10.0.0.52:8880/web/
+        target: newtab
+        id: 11_1364_fastkoko
+      - title: Stable Diffusion
+        url: http://10.0.0.34:7860/
+        target: newtab
+        id: 12_1364_stablediffusion
+      - title: Backup-Porxmox
+        url: http://10.0.0.19:8007
+        id: 13_1364_backupporxmox
+      - title: ComfyUI
+        url: http://10.0.0.143:8188/
+        target: newtab
+        id: 14_1364_comfyui
   - name: Sites
     displayData:
       sortBy: default
@@ -156,6 +175,10 @@ sections:
         url: http://www.mjgfirearms.com
         target: newtab
         id: 3_520_mjgfirearms
+      - title: The Frame Forge
+        url: https://www.theframeforge.com
+        target: newtab
+        id: 4_520_theframeforge
   - name: DNS Servers
     displayData:
       sortBy: default
