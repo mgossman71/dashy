@@ -106,79 +106,80 @@ sections:
       - title: VaultWarden
         url: https://vw.gossman.cloud/
         target: newtab
-        id: 18_1364_vaultwarden
+        id: 1_1364_vaultwarden
       - title: pve1
         url: https://pve1:8006
         target: newtab
-        id: 10_1364_pve
+        id: 2_1364_pve
       - title: pve2
         url: https://pve2:8006
         target: newtab
+        id: 3_1364_pve
       - title: Nginx
         description: nginx
         url: http://10.0.0.55:81
         target: newtab
-        id: 1_1364_nginx
+        id: 4_1364_nginx
       - title: px-u-dk-00
         url: http://10.0.0.55:5001
         target: newtab
-        id: 2_1364_pxudk
+        id: 5_1364_pxudk
       - title: px-u-dk-01
         url: http://10.0.0.52:5001
         target: newtab
-        id: 3_1364_pxudk
+        id: 6_1364_pxudk
       - title: TrueNAS
         url: http://10.0.0.122/ui/dashboard
         target: newtab
-        id: 17_1364_truenas
+        id: 7_1364_truenas
       - title: Synology
         description: synology
         url: http://10.0.0.241:5000
         target: newtab
-        id: 5_1364_synology
+        id: 8_1364_synology
       - title: open-speed-test
         url: http://10.0.0.55:3000
         target: newtab
-        id: 6_1364_openspeedtest
+        id: 9_1364_openspeedtest
       - title: Grafana
         url: http://grafana
         target: newtab
-        id: 7_1364_grafana
+        id: 10_1364_grafana
       - title: Smokeping
         url: http://10.0.0.55:8081/smokeping/
         target: newtab
-        id: 8_1364_smokeping
+        id: 11_1364_smokeping
       - title: Kasm
         url: https://10.0.0.93
         target: newtab
-        id: 9_1364_kasm
+        id: 12_1364_kasm
       - title: Authentik
         url: http://10.0.0.218:9000/
         target: newtab
-        id: 11_1364_authentik
+        id: 13_1364_authentik
       - title: FastKoko
         url: http://10.0.0.23:8880/web/
         target: newtab
-        id: 12_1364_fastkoko
+        id: 14_1364_fastkoko
       - title: Stable Diffusion
         url: http://10.0.0.34:7860/
         target: newtab
-        id: 13_1364_stablediffusion
+        id: 15_1364_stablediffusion
       - title: Backup-Porxmox
         url: http://10.0.0.19:8007
-        id: 14_1364_backupporxmox
+        id: 16_1364_backupporxmox
       - title: ComfyUI
         url: http://10.0.0.143:8188/
         target: newtab
-        id: 15_1364_comfyui
+        id: 17_1364_comfyui
       - title: AWX
         url: http://10.0.0.45/#/home
         target: newtab
-        id: 16_1364_awx
+        id: 18_1364_awx
       - title: Dockge-dns2
         url: http://10.0.0.181:5001
         target: newtab
-        id: 4_1364_dockgedns
+        id: 19_1364_dockgedns
   - name: Sites
     displayData:
       sortBy: default
