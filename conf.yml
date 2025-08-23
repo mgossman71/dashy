@@ -103,6 +103,17 @@ sections:
         url: https://10.0.0.3
         target: newtab
         id: 0_1364_unifi
+      - title: VaultWarden
+        url: https://vw.gossman.cloud/
+        target: newtab
+        id: 18_1364_vaultwarden
+      - title: pve1
+        url: https://pve1:8006
+        target: newtab
+        id: 10_1364_pve
+      - title: pve2
+        url: https://pve2:8006
+        target: newtab
       - title: Nginx
         description: nginx
         url: http://10.0.0.55:81
@@ -116,10 +127,10 @@ sections:
         url: http://10.0.0.52:5001
         target: newtab
         id: 3_1364_pxudk
-      - title: Dockge-dns2
-        url: http://10.0.0.181:5001
+      - title: TrueNAS
+        url: http://10.0.0.122/ui/dashboard
         target: newtab
-        id: 4_1364_dockgedns
+        id: 17_1364_truenas
       - title: Synology
         description: synology
         url: http://10.0.0.241:5000
@@ -141,10 +152,6 @@ sections:
         url: https://10.0.0.93
         target: newtab
         id: 9_1364_kasm
-      - title: pve1
-        url: https://pve1:8006
-        target: newtab
-        id: 10_1364_pve
       - title: Authentik
         url: http://10.0.0.218:9000/
         target: newtab
@@ -168,14 +175,10 @@ sections:
         url: http://10.0.0.45/#/home
         target: newtab
         id: 16_1364_awx
-      - title: TrueNAS
-        url: http://10.0.0.122/ui/dashboard
+      - title: Dockge-dns2
+        url: http://10.0.0.181:5001
         target: newtab
-        id: 17_1364_truenas
-      - title: VaultWarden
-        url: https://vw.gossman.cloud/
-        target: newtab
-        id: 18_1364_vaultwarden
+        id: 4_1364_dockgedns
   - name: Sites
     displayData:
       sortBy: default
