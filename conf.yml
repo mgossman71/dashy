@@ -108,10 +108,10 @@ sections:
         url: http://10.0.0.55:81
         target: newtab
         id: 1_1364_nginx
-      - title: px-u-dk-00-Dockge
+      - title: px-u-dk-00
         url: http://10.0.0.55:5001
         target: newtab
-        id: 2_1364_pxudkdockge
+        id: 2_1364_pxudk
       - title: px-u-dk-01
         url: http://10.0.0.52:5001
         target: newtab
