@@ -108,11 +108,11 @@ sections:
         target: newtab
         id: 1_1364_vaultwarden
       - title: pve1
-        url: https://pve1:8006
+        url: http://pve1:8006
         target: newtab
         id: 2_1364_pve
       - title: pve2
-        url: https://pve2:8006
+        url: http://pve2:8006
         target: newtab
         id: 3_1364_pve
       - title: Nginx
@@ -129,7 +129,7 @@ sections:
         target: newtab
         id: 6_1364_pxudk
       - title: TrueNAS
-        url: http://10.0.0.122/ui/dashboard
+        url: http://truenas.gossman.cloud
         target: newtab
         id: 7_1364_truenas
       - title: Synology
@@ -158,7 +158,7 @@ sections:
         target: newtab
         id: 13_1364_authentik
       - title: FastKoko
-        url: http://10.0.0.23:8880/web/
+        url: http://t2s.gossman.cloud/web/
         target: newtab
         id: 14_1364_fastkoko
       - title: Stable Diffusion
@@ -180,6 +180,10 @@ sections:
         url: http://10.0.0.181:5001
         target: newtab
         id: 19_1364_dockgedns
+      - title: immich
+        url: https://imch.gossman.cloud
+        target: newtab
+        id: 20_1364_immich
   - name: Sites
     displayData:
       sortBy: default
@@ -211,7 +215,11 @@ sections:
         url: http://10.0.0.52:8000/
         target: newtab
         id: 5_520_tffinvoice
-  - name: DNS Servers
+      - title: Wargames
+        url: http://wargames.gossman.cloud:30080/
+        target: newtab
+        id: 6_520_wargames
+  - name: Tools
     displayData:
       sortBy: default
       rows: 1
@@ -222,11 +230,27 @@ sections:
       - title: DNS1
         url: http://10.0.0.55:5380
         target: newtab
-        id: 0_1007_dns
+        id: 0_529_dns
       - title: DNS2
         url: http://10.0.0.181:5380
         target: newtab
-        id: 1_1007_dns
+        id: 1_529_dns
+      - title: WordPress
+        url: http://10.0.0.55:8000/
+        target: newtab
+        id: 2_529_wordpress
+      - title: Notes
+        url: https://notes.gossman.cloud/
+        target: newtab
+        id: 3_529_notes
+      - title: NextCloud
+        url: https://next.gossman.cloud
+        target: newtab
+        id: 4_529_nextcloud
+      - title: n8n
+        url: https://n8n.gossman.cloud
+        target: newtab
+        id: 5_529_nn
   - name: IoT
     displayData:
       sortBy: default
