@@ -176,10 +176,6 @@ sections:
         url: http://10.0.0.45/#/home
         target: newtab
         id: 18_1364_awx
-      - title: Dockge-dns2
-        url: http://10.0.0.181:5001
-        target: newtab
-        id: 19_1364_dockgedns
       - title: immich
         url: https://imch.gossman.cloud
         target: newtab
@@ -227,14 +223,6 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: DNS1
-        url: http://10.0.0.55:5380
-        target: newtab
-        id: 0_529_dns
-      - title: DNS2
-        url: http://10.0.0.181:5380
-        target: newtab
-        id: 1_529_dns
       - title: WordPress
         url: http://10.0.0.55:8000/
         target: newtab
