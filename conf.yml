@@ -179,7 +179,7 @@ sections:
       - title: immich
         url: https://imch.gossman.cloud
         target: newtab
-        id: 20_1364_immich
+        id: 19_1364_immich
   - name: Sites
     displayData:
       sortBy: default
@@ -226,19 +226,23 @@ sections:
       - title: WordPress
         url: http://10.0.0.55:8000/
         target: newtab
-        id: 2_529_wordpress
+        id: 0_529_wordpress
       - title: Notes
         url: https://notes.gossman.cloud/
         target: newtab
-        id: 3_529_notes
+        id: 1_529_notes
       - title: NextCloud
         url: https://next.gossman.cloud
         target: newtab
-        id: 4_529_nextcloud
+        id: 2_529_nextcloud
       - title: n8n
         url: https://n8n.gossman.cloud
         target: newtab
-        id: 5_529_nn
+        id: 3_529_nn
+      - title: Docmost
+        url: http://10.0.0.185:3000/home
+        target: newtab
+        id: 4_529_docmost
   - name: IoT
     displayData:
       sortBy: default
