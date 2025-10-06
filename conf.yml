@@ -90,6 +90,14 @@ sections:
         url: http://10.0.0.52:4000/
         target: newtab
         id: 9_1157_litellm
+      - title: Glance
+        url: http://10.0.0.10:8080/
+        target: sametab
+        id: 10_1157_glance
+      - title: HomeAssistant
+        url: http://10.0.0.239:8123/
+        target: newtab
+        id: 11_1157_homeassistant
   - name: Infra Services
     displayData:
       sortBy: default
@@ -117,7 +125,7 @@ sections:
         id: 3_1364_pve
       - title: Nginx
         description: nginx
-        url: http://10.0.0.55:81
+        url: http://10.0.0.215:81
         target: newtab
         id: 4_1364_nginx
       - title: px-u-dk-00
