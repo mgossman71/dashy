@@ -123,6 +123,14 @@ sections:
         url: http://pve2:8006
         target: newtab
         id: 3_1364_pve
+      - title: pve3
+        url: https://10.0.0.22:8006
+        id: 21_1364_pve
+      - title: pve4
+        description: pve4-test system
+        url: https://10.0.0.66:8006
+        target: newtab
+        id: 20_1364_pve
       - title: Nginx
         description: nginx
         url: http://10.0.0.215:81
@@ -188,14 +196,6 @@ sections:
         url: https://imch.gossman.cloud
         target: newtab
         id: 19_1364_immich
-      - title: pve4
-        description: pve4-test system
-        url: https://10.0.0.66:8006
-        target: newtab
-        id: 20_1364_pve
-      - title: pve3
-        url: https://10.0.0.22:8006
-        id: 21_1364_pve
       - title: Beszel
         url: http://10.0.0.54:8090/
         target: newtab
@@ -204,10 +204,7 @@ sections:
         url: http://10.0.0.54:7655/proxmox/overview
         target: newtab
         id: 23_1364_proxmoxpulse
-      - title: Audiobookshelf
-        url: http://10.0.0.54:13378/audiobookshelf/login
-        target: newtab
-        id: 24_1364_audiobookshelf
+
   - name: Sites
     displayData:
       sortBy: default
