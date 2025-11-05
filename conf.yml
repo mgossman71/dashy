@@ -53,17 +53,17 @@ sections:
         id: 0_1157_overseerr
       - title: Sabnzbd
         description: ''
-        url: http://10.0.0.55:8080
+        url: http://10.0.0.60:8080
         target: newtab
         id: 1_1157_sabnzbd
       - title: Sonarr
         description: ''
-        url: http://10.0.0.55:8989
+        url: http://10.0.0.60:8989
         target: newtab
         id: 2_1157_sonarr
       - title: Radarr
         description: ''
-        url: http://10.0.0.55:7878
+        url: http://10.0.0.60:7878
         target: newtab
         id: 3_1157_radarr
       - title: Plex
@@ -125,77 +125,77 @@ sections:
         id: 3_1364_pve
       - title: pve3
         url: https://10.0.0.22:8006
-        id: 21_1364_pve
+        id: 4_1364_pve
       - title: pve4
         description: pve4-test system
         url: https://10.0.0.66:8006
         target: newtab
-        id: 20_1364_pve
+        id: 5_1364_pve
       - title: Nginx
         description: nginx
         url: http://10.0.0.215:81
         target: newtab
-        id: 4_1364_nginx
+        id: 6_1364_nginx
       - title: px-u-dk-00
         url: http://10.0.0.55:5001
         target: newtab
-        id: 5_1364_pxudk
+        id: 7_1364_pxudk
       - title: px-u-dk-01
         url: http://10.0.0.54:5001
         target: newtab
-        id: 6_1364_pxudk
+        id: 8_1364_pxudk
       - title: TrueNAS
         url: http://10.0.0.14
         target: newtab
-        id: 7_1364_truenas
+        id: 9_1364_truenas
       - title: Synology
         description: synology
         url: http://10.0.0.241:5000
         target: newtab
-        id: 8_1364_synology
+        id: 10_1364_synology
       - title: open-speed-test
         url: http://10.0.0.55:3000
         target: newtab
-        id: 9_1364_openspeedtest
+        id: 11_1364_openspeedtest
       - title: Grafana
         url: http://10.0.0.99:3003
         target: newtab
-        id: 10_1364_grafana
+        id: 12_1364_grafana
       - title: Smokeping
         url: http://10.0.0.55:8081/smokeping/
         target: newtab
-        id: 11_1364_smokeping
+        id: 13_1364_smokeping
       - title: Kasm
         url: https://10.0.0.93
         target: newtab
-        id: 12_1364_kasm
+        id: 14_1364_kasm
       - title: Authentik
         url: http://10.0.0.72:9000/
         target: newtab
-        id: 13_1364_authentik
+        id: 15_1364_authentik
       - title: Kokoro-FastAPI
         url: http://t2s.gossman.cloud/web/
         target: newtab
-        id: 14_1364_kokorofastapi
+        id: 16_1364_kokorofastapi
       - title: Stable Diffusion
         url: http://10.0.0.155:7860/
         target: newtab
-        id: 15_1364_stablediffusion
+        id: 17_1364_stablediffusion
       - title: Backup-Porxmox
         url: http://10.0.0.19:8007
-        id: 16_1364_backupporxmox
+        id: 18_1364_backupporxmox
       - title: ComfyUI
         url: http://10.0.0.142:8188/
         target: newtab
-        id: 17_1364_comfyui
+        id: 19_1364_comfyui
       - title: AWX
         url: http://10.0.0.45/#/home
         target: newtab
-        id: 18_1364_awx
+        id: 20_1364_awx
       - title: immich
         url: https://imch.gossman.cloud
         target: newtab
-        id: 19_1364_immich
+        id: 21_1364_immich
       - title: Beszel
         url: http://10.0.0.54:8090/
         target: newtab
@@ -204,7 +204,14 @@ sections:
         url: http://10.0.0.54:7655/proxmox/overview
         target: newtab
         id: 23_1364_proxmoxpulse
-
+      - title: TrueNAS100
+        url: http://10.0.0.136
+        target: newtab
+        id: 24_1364_truenas
+      - title: Docker0
+        url: http://10.0.0.60:5001/
+        target: newtab
+        id: 25_1364_docker
   - name: Sites
     displayData:
       sortBy: default
