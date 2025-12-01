@@ -200,10 +200,6 @@ sections:
         url: http://10.0.0.54:8090/
         target: newtab
         id: 22_1364_beszel
-      - title: Proxmox - Pulse
-        url: http://10.0.0.54:7655/proxmox/overview
-        target: newtab
-        id: 23_1364_proxmoxpulse
       - title: TrueNAS100
         url: http://10.0.0.136
         target: newtab
