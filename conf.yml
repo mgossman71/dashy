@@ -75,7 +75,7 @@ sections:
         target: newtab
         id: 5_1157_homarr
       - title: Open-WebUI
-        url: https://jarvis.gossman.cloud
+        url: https://jarvis.gossman.tech
         target: newtab
         id: 6_1157_openwebui
       - title: ChatGPT
@@ -185,7 +185,7 @@ sections:
         url: http://10.0.0.19:8007
         id: 18_1364_backupporxmox
       - title: ComfyUI
-        url: http://10.0.0.142:8188/
+        url: http://10.0.0.183:8188/
         target: newtab
         id: 19_1364_comfyui
       - title: AWX
@@ -244,7 +244,7 @@ sections:
         target: newtab
         id: 5_520_tffinvoice
       - title: Wargames
-        url: http://wargames.gossman.cloud:30080/
+        url: http://wargames.mehome.casa:30080/
         target: newtab
         id: 6_520_wargames
   - name: Tools
@@ -260,7 +260,7 @@ sections:
         target: newtab
         id: 0_529_wordpress
       - title: Notes
-        url: https://notes.gossman.cloud/
+        url: http://10.0.0.185:3000/home
         target: newtab
         id: 1_529_notes
       - title: NextCloud
