@@ -95,7 +95,7 @@ sections:
         target: sametab
         id: 10_1157_glance
       - title: HomeAssistant
-        url: http://10.0.0.239:8123/
+        url: https://has.gossman.cloud
         target: newtab
         id: 11_1157_homeassistant
   - name: Infra Services
@@ -203,11 +203,11 @@ sections:
       - title: TrueNAS100
         url: http://10.0.0.136
         target: newtab
-        id: 24_1364_truenas
+        id: 23_1364_truenas
       - title: Docker0
         url: http://10.0.0.60:5001/
         target: newtab
-        id: 25_1364_docker
+        id: 24_1364_docker
   - name: Sites
     displayData:
       sortBy: default
