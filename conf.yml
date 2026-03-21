@@ -190,7 +190,7 @@ sections:
         target: newtab
         id: 17_1364_stablediffusion
       - title: Backup-Porxmox
-        url: http://10.0.0.233:8007
+        url: http://10.0.0.243:8007
         id: 18_1364_backupporxmox
       - title: ComfyUI
         url: http://10.0.0.183:8188/
@@ -219,7 +219,7 @@ sections:
       - title: pbs0
         url: https://10.0.0.57:8007/
         target: newtab
-        id: 26_1364_pbs
+        id: 25_1364_pbs
   - name: Sites
     displayData:
       sortBy: default
