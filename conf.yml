@@ -216,10 +216,6 @@ sections:
         url: http://10.0.0.60:5001/
         target: newtab
         id: 24_1364_docker
-      - title: pbs0
-        url: https://10.0.0.57:8007/
-        target: newtab
-        id: 25_1364_pbs
   - name: Sites
     displayData:
       sortBy: default
