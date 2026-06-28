@@ -193,7 +193,7 @@ sections:
         url: http://10.0.0.243:8007
         id: 18_1364_backupporxmox
       - title: ComfyUI
-        url: http://10.0.0.183:8188/
+        url: http://10.0.54.157:8188/
         target: newtab
         id: 19_1364_comfyui
       - title: AWX
@@ -216,6 +216,18 @@ sections:
         url: http://10.0.0.60:5001/
         target: newtab
         id: 24_1364_docker
+      - title: OpenClaw
+        url: http://localhost:18789/chat?session=agent%3Amain%3Amain
+        target: newtab
+        id: 25_1364_openclaw
+      - title: InvokeAI
+        url: http://10.0.114.24:9090/app
+        target: newtab
+        id: 26_1364_invokeai
+      - title: Plane (Ticket Management)
+        url: http://10.0.0.156:8080/skynet/
+        target: newtab
+        id: 27_1364_planeticketmanagement
   - name: Sites
     displayData:
       sortBy: default
@@ -283,17 +295,11 @@ sections:
         url: https://books.gossman.cloud
         target: newtab
         id: 5_529_audiobooks
-  - name: IoT
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: Hubitat
-        url: http://10.0.0.41
-        id: 0_268_hubitat
-      - title: Homebridge
-        url: http://vip0:8581
-        id: 1_268_homebridge
+      - title: Obsidian
+        url: https://10.0.0.170:3001/
+        target: newtab
+        id: 6_529_obsidian
+      - title: Hermes-Test
+        url: http://hermes-test:9119/sessions
+        target: newtab
+        id: 7_529_hermestest
